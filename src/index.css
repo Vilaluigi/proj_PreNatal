@@ -1,7 +1,47 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+  font-family: Montserrat, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+  background-image: url("./assets/pixelcut-export.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinha conteúdo no início (esquerda) */
+  padding-left: 50px; /* Espaço da margem esquerda */
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0); /* transparente */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 10vh;
+}
+
+.logo {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.btn-acessar {
+  background-color: #2299b9;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: none;
+  width: 296px;
+  height: 55px;
 }

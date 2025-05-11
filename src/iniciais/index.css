@@ -1,0 +1,52 @@
+body {
+  background-color: #2299b9;
+}
+
+.titulo {
+  color: #faf3e0;
+  font-size: 45px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 9vw;
+  margin-left: 9vw;
+  margin-top: 30px;
+}
+.texto {
+  color: #faf3e0;
+  font-size: 30px;
+  font-family: Istok Web;
+  line-height: 2.5em;
+}
+.container-Button {
+  display: flex;
+  gap: 20vw;
+}
+
+.btn-acessar {
+  background-color: #d3d3d3;
+  color: #7f7f7f;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: none;
+  width: 296px;
+  height: 55px;
+}
+.btn-acessar:hover {
+  background-color: #005f73;
+  color: #f2f2f2;
+}
+.btn-voltar {
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0); /* transparente */
+  border-color: transparent;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}

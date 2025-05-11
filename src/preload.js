@@ -1,2 +1,6 @@
-// See the Electron documentation for details on how to use preload scripts:
-// https://www.electronjs.org/docs/latest/tutorial/process-model#preload-scripts
+const { contextBridge, ipcRenderer } = require("electron");
+
+contextBridge.exposeInMainWorld("electronAPI", {
+  trocarTela: (caminho) => ipcRenderer.send("trocar-tela", caminho),
+  voltarTela: (caminho) => ipcRenderer.send("voltar-para-tela", caminho),
+});
