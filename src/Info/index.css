@@ -1,0 +1,31 @@
+body {
+  background-color: #2299b9;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 16vw;
+  margin-left: 16vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.imagem {
+  border-radius: 20px;
+  height: 583px;
+}
+.btn-voltar {
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0); /* transparente */
+  border-color: transparent;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+h1 {
+  font-size: 30px;
+  color: #faf3e0;
+  margin-bottom: 50px;
+  font-family: "Montserrat";
+  text-align: justify;
+}

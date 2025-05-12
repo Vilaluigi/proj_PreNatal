@@ -11,15 +11,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 9vw;
-  margin-left: 9vw;
+  margin-right: 10vw;
+  margin-left: 10vw;
   margin-top: 30px;
 }
 .texto {
   color: #faf3e0;
   font-size: 30px;
-  font-family: Istok Web;
+  font-family: "Istok Web";
   line-height: 2.5em;
+  text-align: justify;
 }
 .container-Button {
   display: flex;
